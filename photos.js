@@ -27,13 +27,13 @@ function populateFigures() {
    var currentFig;
      if (figureCount === 3) {
      for (var i = 1; i<4; i++) {
-      filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
+      filename = "folder/IMG_0" + photoOrder[i] + "sm.jpg";
       currentFig = document.getElementsByTagName("img")[i - 1];
       currentFig.src = filename;
    } /* ends first for statement*/ 
    } else {
       for (var i = 0; i<5; i++){
-         filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
+         filename = "folder/IMG_0" + photoOrder[i] + "sm.jpg";
          currentFig = document.getElementsByTagName("img")[i];
          currentFig.src = filename;
       } //ends second for statement
