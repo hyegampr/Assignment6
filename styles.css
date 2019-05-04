@@ -1,0 +1,108 @@
+.header{
+	display: grid;
+	background-color: grey;
+	height: 200px;
+	font-size: 20px;
+	grid-template-rows: 1em 1em 1em 1em;
+}
+
+/* css for the <nav> section*/
+nav {
+	display: grid;
+	position: fixed;
+	left: 50%;
+	grid-template: row;
+	grid-row: 10px 10px 10px;
+	font-color: rgb(0, 100, 170);
+	background-color: rgb(150, 200, 222);
+	width: 4in;
+}
+
+
+/* contains the all the body content after the <body> tag
+* flex and rgb grey color
+*/
+.filler{
+	background-color: rgb(220, 222, 222);
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	color: rgb(10, 22, 250);
+}
+
+h1, h2{
+	color: rgb(0, 0, 0);
+}
+
+
+/* invitation section within filler, 1st section*/
+.invitation{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	}
+
+/* history of business */
+.history{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+/*second page on the site, contains the form made from scratch with the animation of colors. could make this a linear gradient to make it more interesting if wanted */
+.form {
+	display: flex;
+	flex-direction:	column;
+	background-color: orange;
+	color: black;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	animation-name: formcolor;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	width: 9in;
+	height: auto;
+/*	column: 1in 1in;*/
+	
+}
+
+
+.form-div{
+	display: block;
+	position: relative;
+	top: 1in;
+	width: 100%;
+	color: black;
+	text-fill-color: black;
+}
+
+/* creates color animation for the form */
+/*@keyframes formcolor{*/
+/*	0%{*/
+/*		background-color: grey;*/
+/*	}*/
+/*	10%{*/
+/*		background-color: green ;*/
+/*	}*/
+/*	20%{*/
+/*		background-color: blue;*/
+/*	}*/
+/*	30%{*/
+/*		background-color: orange;*/
+/*	}*/
+/*}*/
+
+
+.footer{
+	background-color: grey;
+	display: block;
+	position: relative;
+	bottom: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: x-large;
+}
