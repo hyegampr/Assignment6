@@ -40,19 +40,27 @@
 	<br>
 	Please Explore the site and join us on Slack if you are looking to contribute work.
 
+
+<div id="widget">
 	<script src="https://bin.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script>
-	 <div id="widget"></div>
+	 </div>
 	 <script>
         window.onload = function () {
             var t = document.querySelector('#widget')
             window.binanceFiatWidget.Widget(t, {
                 urlParmas: {
                         ref: '27850701'
+								opts: 'light' | 'dark'
                 }
             })
         }
     </script>
+<!--
+check jump link has the params ref with:
 
+https://www.binance.com/cn/buy-sell-crypto?fiat=USD&crypto=BTC&amount=1000&ref=27850701
+
+-->
 	</header>
 
 	<body>
