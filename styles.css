@@ -19,6 +19,7 @@ nav {
 }
 
 .widget{
+	flex: auto;
 	background-color: dodgerblue;
 	position: fixed;
 	align-items: flex-end;
