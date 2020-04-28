@@ -18,7 +18,11 @@ nav {
 	width: 4in;
 }
 
-
+.widget{
+	background-color: dodgerblue;
+	position: fixed;
+	align-items: flex-end;
+}
 /* contains the all the body content after the <body> tag
 * flex and rgb grey color
 */
@@ -67,7 +71,7 @@ h1, h2{
 	width: 9in;
 	height: auto;
 /*	column: 1in 1in;*/
-	
+
 }
 
 
