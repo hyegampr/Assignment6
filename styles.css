@@ -24,6 +24,9 @@ nav {
 	position: fixed;
 	align-items: flex-end;
 }
+.widget.options.theme{
+	opts: 'dark'
+}
 /* contains the all the body content after the <body> tag
 * flex and rgb grey color
 */
